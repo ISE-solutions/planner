@@ -1,0 +1,42 @@
+import * as React from 'react';
+import * as ReactDom from 'react-dom';
+import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
+
+import ReportScheduleTeacher from './components/ReportScheduleTeacher';
+import { setup as pnpSetup } from '@pnp/common';
+import { sp } from '@pnp/sp/presets/all';
+import '../styles.css';
+
+export interface IReportWebPartProps {
+  description: string;
+}
+
+export default class ReportWebPart extends BaseClientSideWebPart<IReportWebPartProps> {
+  public onInit(): Promise<void> {
+    return super.onInit().then((_) => {
+      pnpSetup({
+        spfxContext: this.context,
+      });
+
+      sp.setup({
+        sp: {
+          baseUrl: this.context.pageContext.site.absoluteUrl,
+        },
+      });
+
+      this.render();
+    });
+  }
+
+  public render(): void {
+    const element: React.ReactElement = React.createElement(ReportScheduleTeacher, {
+      context: this.context,
+    });
+
+    ReactDom.render(element, this.domElement);
+  }
+
+  protected onDispose(): void {
+    ReactDom.unmountComponentAtNode(this.domElement);
+  }
+}

@@ -1,0 +1,88 @@
+.titleMenu {
+  font-size: 1rem;
+}
+
+.itemMenu {
+  span {
+    font-size: 0.9rem;
+    white-space: normal;
+  }
+}
+
+.iconClose {
+  padding: 1px !important;
+  background-color: #fff !important;
+  border: solid 1px #0063a5 !important;
+}
+
+.wrapperMenu {
+  overflow: auto;
+  overflow-x: hidden;
+  top: 4rem;
+  padding: 8px !important;
+  max-height: calc(100vh - 170px);
+
+  &::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+  }
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    background: #f4f4f4;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+    border-radius: 15px;
+  }
+}
+
+.wrapperContent {
+  height: calc(100vh - 50px);
+  &::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+  }
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    background: #f4f4f4;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+    border-radius: 15px;
+  }
+
+  * {
+    ::-webkit-scrollbar-track {
+      background-color: #f4f4f4;
+    }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+      background: #f4f4f4;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #dad7d7;
+      border-radius: 15px;
+    }
+  }
+}
+
+.activeMenu {
+  background-color: #0063a5 !important;
+
+  span {
+    font-weight: bold;
+  }
+
+  * {
+    color: #fff;
+  }
+}
+
+.boxBreadcrumb {
+  padding: 1rem 0;
+}

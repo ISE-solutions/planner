@@ -1,0 +1,42 @@
+.MuiInputBase-input {
+  border: none !important;
+  background: none !important;
+}
+
+.MuiButtonBase-root {
+  min-width: auto !important;
+}
+
+:global(.MuiDialog-paperScrollPaper) {
+  background-color: #F4F4F4;
+}
+
+:global(.MuiDialog-paperScrollPaper *::-webkit-scrollbar-track) {
+  background-color: #F4F4F4;
+}
+
+:global(.MuiDialog-paperScrollPaper *::-webkit-scrollbar) {
+  width: 10px;
+  height: 10px;
+  background: #F4F4F4;
+}
+
+:global(.MuiDialog-paperScrollPaper *::-webkit-scrollbar-thumb) {
+  background: #dad7d7;
+  border-radius: 15px;
+}
+
+:global(.MuiDialog-paperScrollPaper::-webkit-scrollbar-track) {
+  background-color: #F4F4F4;
+}
+
+:global(.MuiDialog-paperScrollPaper::-webkit-scrollbar) {
+  width: 10px;
+  height: 10px;
+  background: #F4F4F4;
+}
+
+:global(.MuiDialog-paperScrollPaper::-webkit-scrollbar-thumb) {
+  background: #dad7d7;
+  border-radius: 15px;
+}

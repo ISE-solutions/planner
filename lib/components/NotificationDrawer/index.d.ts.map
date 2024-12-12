@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../src/components/NotificationDrawer/index.tsx"],"names":[],"mappings":"AAYA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AA+B/B,UAAU,uBAAuB;IAC/B,IAAI,EAAE,OAAO,CAAC;IACd,MAAM,EAAE,MAAM,IAAI,CAAC;IACnB,WAAW,EAAE,MAAM,IAAI,CAAC;CACzB;AAED,eAAO,MAAM,kBAAkB,EAAE,KAAK,CAAC,EAAE,CAAC,uBAAuB,CA+LhE,CAAC"}

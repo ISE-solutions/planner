@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "eabe3a4f-cbbf-4735-846d-63a38c7cb775",
+  "alias": "ConflictManagementWebpart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportsFullBleed": true,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "187638cc-2078-4f83-945b-d6df788d5394",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "ConflictManagements - HML"
+      },
+      "description": {
+        "default": "ConflictManagement description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "ConflictManagement"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Dependências
+node_modules/
+
+# Builds
+dist/
+build/
+.cache/
+temp/
+
+# Configuração local
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.idea/
+.vscode/
+
+# Sistemas Operacionais
+.DS_Store
+Thumbs.db
+
+# Certificados
+*.pem
+*.crt
+*.key

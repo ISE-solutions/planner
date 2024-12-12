@@ -1,0 +1,1 @@
+{"version":3,"file":"UserProvider.d.ts","sourceRoot":"","sources":["../../../src/providers/UserProvider/UserProvider.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAU/B,MAAM,WAAW,SAAS;IACxB,WAAW,EAAE,GAAG,CAAC;IACjB,OAAO,EAAE,GAAG,EAAE,CAAC;IACf,IAAI,EAAE,GAAG,EAAE,CAAC;CACb;AAED,eAAO,MAAM,WAAW,0BAAkD,CAAC;AAE3E,eAAO,MAAM,YAAY;;;uBAuDxB,CAAC"}

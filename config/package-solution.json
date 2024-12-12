@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ise-apps",
+    "id": "0f5b669e-d3de-4cb5-852f-1179ca71f3e5",
+    "version": "1.1.7.40",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      },
+      {
+        "resource": "Microsoft Dynamics",
+        "scope": "https://org4ecd01aa.crm2.dynamics.com"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ise-apps.sppkg"
+  }
+}

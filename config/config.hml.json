@@ -1,0 +1,158 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "create-classified-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/person/PersonWebPart.js",
+          "manifest": "./src/webparts/person/PersonWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/tag/TagWebPart.js",
+          "manifest": "./src/webparts/tag/TagWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/space/SpaceWebPart.js",
+          "manifest": "./src/webparts/space/SpaceWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/finiteResource/FiniteResourceWebPart.js",
+          "manifest": "./src/webparts/finiteResource/FiniteResourceWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/infiniteResource/InfiniteResourceWebPart.js",
+          "manifest": "./src/webparts/infiniteResource/InfiniteResourceWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/academicActivity/AcademicActivityWebPart.js",
+          "manifest": "./src/webparts/academicActivity/AcademicActivityWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/nonAcademicActivity/NonAcademicActivityWebPart.js",
+          "manifest": "./src/webparts/nonAcademicActivity/NonAcademicActivityWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/internalActivity/InternalActivityWebPart.js",
+          "manifest": "./src/webparts/internalActivity/InternalActivityWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/scheduleModel/ScheduleModelWebPart.js",
+          "manifest": "./src/webparts/scheduleModel/ScheduleModelWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/program/ProgramWebPart.js",
+          "manifest": "./src/webparts/program/ProgramWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/teamModel/TeamModelWebPart.js",
+          "manifest": "./src/webparts/teamModel/TeamModelWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/activityModel/ActivityModelWebPart.js",
+          "manifest": "./src/webparts/activityModel/ActivityModelWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/programModel/ProgramModelWebPart.js",
+          "manifest": "./src/webparts/programModel/ProgramModelWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/resources/ResourcesWebPart.js",
+          "manifest": "./src/webparts/resources/ResourcesWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/task/TaskWebPart.js",
+          "manifest": "./src/webparts/task/TaskWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/conflictManagement/ConflictManagementWebPart.js",
+          "manifest": "./src/webparts/conflictManagement/ConflictManagementWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/report/ReportWebPart.js",
+          "manifest": "./src/webparts/report/ReportWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/timeReport/TimeReportWebPart.js",
+          "manifest": "./src/webparts/timeReport/TimeReportWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportAcademicGradeOutline/ReportAcademicGradeOutlineWebPart.js",
+          "manifest": "./src/webparts/reportAcademicGradeOutline/ReportAcademicGradeOutlineWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportAcademicSessionByMonth/ReportAcademicSessionByMonthWebPart.js",
+          "manifest": "./src/webparts/reportAcademicSessionByMonth/ReportAcademicSessionByMonthWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportAcademicSessionByPerson/ReportAcademicSessionByPersonWebPart.js",
+          "manifest": "./src/webparts/reportAcademicSessionByPerson/ReportAcademicSessionByPersonWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportCalendarByPerson/ReportCalendarByPersonWebPart.js",
+          "manifest": "./src/webparts/reportCalendarByPerson/ReportCalendarByPersonWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportCalendarByRoom/ReportCalendarByRoomWebPart.js",
+          "manifest": "./src/webparts/reportCalendarByRoom/ReportCalendarByRoomWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportCriticalDays/ReportCriticalDaysWebPart.js",
+          "manifest": "./src/webparts/reportCriticalDays/ReportCriticalDaysWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportPlanningDemand/ReportPlanningDemandWebPart.js",
+          "manifest": "./src/webparts/reportPlanningDemand/ReportPlanningDemandWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportSessions/ReportSessionsWebPart.js",
+          "manifest": "./src/webparts/reportSessions/ReportSessionsWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportSintetic/ReportSinteticWebPart.js",
+          "manifest": "./src/webparts/reportSintetic/ReportSinteticWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportWeekPlanGRSA/ReportWeekPlanGRSAWebPart.js",
+          "manifest": "./src/webparts/reportWeekPlanGRSA/ReportWeekPlanGRSAWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportFollowSchedule/ReportFollowScheduleWebPart.js",
+          "manifest": "./src/webparts/reportFollowSchedule/ReportFollowScheduleWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportMonthlyCalendar/ReportMonthlyCalendarWebPart.js",
+          "manifest": "./src/webparts/reportMonthlyCalendar/ReportMonthlyCalendarWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/advancedSearch/AdvancedSearchWebPart.js",
+          "manifest": "./src/webparts/advancedSearch/AdvancedSearchWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/trash/TrashWebPart.js",
+          "manifest": "./src/webparts/trash/TrashWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/batchEdition/BatchEditionWebPart.js",
+          "manifest": "./src/webparts/batchEdition/BatchEditionWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportAnualCalendar/ReportAnualCalendarWebPart.js",
+          "manifest": "./src/webparts/reportAnualCalendar/ReportAnualCalendarWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/reportScheduleTeacher/ReportScheduleTeacherWebPart.js",
+          "manifest": "./src/webparts/reportScheduleTeacher/ReportScheduleTeacherWebPart.manifest.hml.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/activityGroupModel/ActivityGroupModelWebPart.js",
+          "manifest": "./src/webparts/activityGroupModel/ActivityGroupModelWebPart.manifest.hml.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CreateClassifiedWebPartStrings": "lib/webparts/createClassified/loc/{locale}.js"
+  }
+}

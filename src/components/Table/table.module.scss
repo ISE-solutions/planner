@@ -1,0 +1,9 @@
+.table {
+  // max-width: 94rem;
+
+  :global(.MuiCheckbox-root) {
+    svg {
+      background-color: #fff;
+    }
+  }
+}

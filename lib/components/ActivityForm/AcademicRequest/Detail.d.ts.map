@@ -1,0 +1,1 @@
+{"version":3,"file":"Detail.d.ts","sourceRoot":"","sources":["../../../../src/components/ActivityForm/AcademicRequest/Detail.tsx"],"names":[],"mappings":"AAEA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAO/B,UAAU,mBAAmB;IAC3B,IAAI,EAAE,OAAO,CAAC;IACd,IAAI,EAAE,GAAG,CAAC;IACV,WAAW,EAAE,MAAM,IAAI,CAAC;CACzB;AAED,QAAA,MAAM,aAAa,EAAE,KAAK,CAAC,EAAE,CAAC,mBAAmB,CAuGhD,CAAC;AAEF,eAAe,aAAa,CAAC"}

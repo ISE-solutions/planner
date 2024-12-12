@@ -1,0 +1,1 @@
+{"version":3,"file":"useContextWebpart.js","sourceRoot":"","sources":["../../../src/hooks/useContextWebpart/useContextWebpart.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,OAAO,CAAC;AACnC,OAAO,EAAE,cAAc,EAAE,MAAM,iCAAiC,CAAC;AAGjE,SAAS,iBAAiB;IACxB,OAAO,UAAU,CAAC,cAAc,CAAC,CAAC;AACpC,CAAC;AAED,eAAe,iBAAiB,CAAC"}

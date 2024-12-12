@@ -1,0 +1,17 @@
+.card {
+  min-width: 20rem;
+
+  :global(.MuiCardHeader-root) {
+    padding: 10px 16px 0 !important;
+  }
+
+  :global(.MuiCardContent-root) {
+    padding: 0 16px 0 !important;
+  }
+}
+
+.cardActions {
+   justify-content: flex-end;
+   padding: 0 !important;
+   padding-right: 8px;
+}

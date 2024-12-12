@@ -1,0 +1,43 @@
+.boxTab {
+   min-height: 20rem;
+   margin-top: .6rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.wrapperInput {
+   width: 50%;
+}
+
+.dialogContent {
+   &::-webkit-scrollbar-track {
+      background-color: #F4F4F4;
+   }
+
+   &::-webkit-scrollbar {
+      width: 10px;
+      background: #F4F4F4;
+   }
+
+   &::-webkit-scrollbar-thumb {
+      background: #dad7d7;
+      border-radius: 15px;
+   }
+
+   * {
+      ::-webkit-scrollbar-track {
+         background-color: #F4F4F4;
+      }
+   
+      ::-webkit-scrollbar {
+         width: 10px;
+         height: 10px;
+         background: #F4F4F4;
+      }
+   
+      ::-webkit-scrollbar-thumb {
+         background: #dad7d7;
+         border-radius: 15px;
+      }
+   }
+}

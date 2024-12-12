@@ -1,0 +1,39 @@
+.boxTab {
+  min-height: 20rem;
+  margin-top: 0.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.dialogContent {
+  &::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+  }
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    background: #f4f4f4;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+    border-radius: 15px;
+  }
+
+  * {
+    ::-webkit-scrollbar-track {
+      background-color: #f4f4f4;
+    }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+      background: #f4f4f4;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #dad7d7;
+      border-radius: 15px;
+    }
+  }
+}

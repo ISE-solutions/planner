@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../../../src/webparts/space/components/ModalDetail/index.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAmB/B,UAAU,kBAAkB;IAC1B,IAAI,EAAE,OAAO,CAAC;IACd,IAAI,EAAE,GAAG,CAAC;IACV,OAAO,EAAE,MAAM,IAAI,CAAC;CACrB;AAED,QAAA,MAAM,WAAW,EAAE,KAAK,CAAC,EAAE,CAAC,kBAAkB,CA4M7C,CAAC;AAEF,eAAe,WAAW,CAAC"}

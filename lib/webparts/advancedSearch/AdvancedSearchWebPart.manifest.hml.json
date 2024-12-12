@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "055eb4f7-7125-46aa-96e0-3c20b559dc6f",
+  "alias": "AdvancedSearchWebpart",
+  "componentType": "WebPart",
+ 
+  "version": "*",
+  "manifestVersion": 2,
+   
+  "requiresCustomScript": false,
+  "supportsFullBleed": true,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "187638cc-2078-4f83-945b-d6df788d5394", 
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "AdvancedSearch - HML"
+      },
+      "description": {
+        "default": "AdvancedSearch description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "AdvancedSearch"
+      }
+    }
+  ]
+}
